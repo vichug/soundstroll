@@ -1,0 +1,86 @@
+
+
+--SEQUENCEUR 3D--
+
+Chaque sphère pleine figure la position d'une source sonore dans un espace, 
+chaque sphère en grillage est un 'trigger' relié à une source sonore - sphère pleine de la même couleur, 
+le franchissement d'un "trigger" par l'utilisateur déclenchera la source liée.
+
+Les sources sont spatialisées dans l'espace, autour de l'utilisateur, 
+à la manière de sources réelles dans un environnement réel dans lequel on se meut.
+
+
+
+--DEMARRAGE--
+
+
+Ouvrir d'abord 
+	creatingShapes
+puis 
+	soundfilesselector
+enfin 
+	secondtrytohostsounds.
+
+Sauvegarder une scène : 
+utiliser le button commenté "save" dans creatingShapes ET
+le button commenté "save" dans soundfilesselector.
+A chaque fois, il faut sélectionner/créer un dossier, qui contiendra la scène
+ainsi enregistrée.
+Il est possible (et souhaitable) d'utiliser le même dossier pour sauvegarder les fichiers
+nécessaires aux deux patchs.
+
+Rappeler une scène : 
+Ouvrir d'abord 
+	creatingShapes,
+	cliquer sur "read" dans creatingShapes,
+	sélectionner le dossier souhaité
+puis 
+	ouvrir soundfilesselector 
+ainsi que 
+	second*trytohostsounds ; (* : ou ultérieur)
+enfin 
+	"read" dans soundfilesselector.	
+
+Si une scène est mal rappelée : 
+	-redimensionner, en mode linké, les sphères de trigger récalcitrantes.
+	-changer de mode (linké/non linké) une fois chacun.
+	-déplacer légèrement une sphère.
+	-"Re-import from main" les sons du soundfileselector qui ne sont pas rappelés.
+
+
+--COMMANDES--
+
+
+&		pour activer/désactiver les commandes par clavier
+
+
+ESCAPE	pour passer de plein écran à petit écran
+
+t 		pour afficher/cacher les sphères de déclenchement
+
+c		pour contraindre/libérer la rotation selon l'axe vertical
+
+y		pour linker/délinker les positions des sources et des triggers
+
+n		pour créer une nouvelle sphère
+
+o		pour retourner à l'origine
+
+
+ESPACE 	pour activer/désactiver la navigation :
+
+zqsd + souris	pour se déplacer (haut gauche bas droite)
+	z	avant
+	q	gauche
+	s	arrière
+	d	droite
+	a	haut
+	w	bas
+
+
+CMD(mac) or CTL(windows)+CLIC GAUCHE
+	+ souris vers le haut 
+		pour augmenter la taille d'une sphère de trigger 
+	+ souris vers le bas
+		pour diminuer la taille d'une sphère de trigger 
+	!ATTENTION! ne fonctionne correctement qu'en mode linké.
