@@ -1,8 +1,8 @@
 {
-	"name" : "soundwander_cln_pers",
+	"name" : "SoundStroll",
 	"version" : 1,
 	"creationdate" : -851374900,
-	"modificationdate" : -831901984,
+	"modificationdate" : -831789933,
 	"viewrect" : [ 1.0, 44.0, 361.0, 809.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -20,6 +20,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"autocollfiller.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"sfcolors.maxpat" : 			{
@@ -72,21 +77,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"shapes2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"autocollfiller.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"toimplement.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
@@ -132,11 +122,6 @@
 ,
 		"other" : 		{
 			"animdrivefps" : 			{
-				"kind" : "file",
-				"local" : 1
-			}
-,
-			"cours_3_jitter_notes_de_cours.pdf" : 			{
 				"kind" : "file",
 				"local" : 1
 			}

@@ -1,7 +1,8 @@
 
 
---SEQUENCEUR 3D--
+--SOUNDSTROLL--
 
+SOUNDSTROLL est un "séquenceur 3D".
 Chaque sphère pleine figure la position d'une source sonore dans un espace, 
 chaque sphère en grillage est un 'trigger' relié à une source sonore - sphère pleine de la même couleur, 
 le franchissement d'un "trigger" par l'utilisateur déclenchera la source liée.
@@ -15,37 +16,26 @@ Les sources sont spatialisées dans l'espace, autour de l'utilisateur,
 
 
 Ouvrir d'abord 
-	creatingShapes
-puis 
-	soundfilesselector
-enfin 
-	secondtrytohostsounds.
+shapes, sfcolorsgui puis un patch dont le nom contient "soundhost",
+en fonction du moteur de spatialisation désiré.
 
 Sauvegarder une scène : 
-utiliser le button commenté "save" dans creatingShapes ET
+utiliser le button commenté "save" dans creatingShapes OU
 le button commenté "save" dans soundfilesselector.
-A chaque fois, il faut sélectionner/créer un dossier, qui contiendra la scène
+Dans les deux cas, il faut sélectionner/créer un dossier, qui contiendra la scène
 ainsi enregistrée.
-Il est possible (et souhaitable) d'utiliser le même dossier pour sauvegarder les fichiers
-nécessaires aux deux patchs.
 
 Rappeler une scène : 
-Ouvrir d'abord 
-	creatingShapes,
-	cliquer sur "read" dans creatingShapes,
-	sélectionner le dossier souhaité
-puis 
-	ouvrir soundfilesselector 
-ainsi que 
-	second*trytohostsounds ; (* : ou ultérieur)
-enfin 
-	"read" dans soundfilesselector.	
+utiliser le button commenté "read" dans creatingShapes OU
+le button commenté "read" dans soundfilesselector.
+Sélectionnez le dossier qui contient la scène enregistrée désirée.
 
-Si une scène est mal rappelée : 
+( Si une scène est mal rappelée/présente des difficultés au démarrage : 
 	-redimensionner, en mode linké, les sphères de trigger récalcitrantes.
 	-changer de mode (linké/non linké) une fois chacun.
 	-déplacer légèrement une sphère.
-	-"Re-import from main" les sons du soundfileselector qui ne sont pas rappelés.
+	-"Re-import from main" les sons du soundfileselector qui ne sont pas rappelés. 
+Si rien ne marche, un redémarrage peut aider... )
 
 
 --COMMANDES--
@@ -83,4 +73,9 @@ CMD(mac) or CTL(windows)+CLIC GAUCHE
 		pour augmenter la taille d'une sphère de trigger 
 	+ souris vers le bas
 		pour diminuer la taille d'une sphère de trigger 
-	!ATTENTION! ne fonctionne correctement qu'en mode linké.
+
+ALT+CLIC GAUCHE
+	+ souris vers le haut 
+		pour éloigner une sphère 
+	+ souris vers le bas
+		pour ramener une sphère vers soi.
