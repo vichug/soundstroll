@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 489.0, 44.0, 560.0, 260.0 ],
+		"rect" : [ 0.0, 384.0, 560.0, 260.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -28,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"frgb" : 0.0,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 339.0, 449.0, 41.0, 19.0 ],
-					"text" : "à virer"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"enablevscroll" : 1,
 					"id" : "obj-13",
@@ -168,6 +154,27 @@
 			}
 , 			{
 				"box" : 				{
+					"coll_data" : 					{
+						"count" : 4,
+						"data" : [ 							{
+								"key" : 1,
+								"value" : [ 0 ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ 0 ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ 0 ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ 0 ]
+							}
+ ]
+					}
+,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-86",
@@ -177,7 +184,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 683.791687, 537.0, 76.999939, 20.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0
+						"embed" : 1
 					}
 ,
 					"text" : "coll modes 1"
@@ -190,19 +197,19 @@
 						"count" : 4,
 						"data" : [ 							{
 								"key" : 1,
-								"value" : [ "evenementhorribleFormatted.aiff" ]
+								"value" : [ "hgahg" ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ "mageessai5" ]
+								"value" : [ "  .aif" ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ "evenementhorribleFormatted.aiff" ]
+								"value" : [ "underwater 2.aif" ]
 							}
 , 							{
 								"key" : 4,
-								"value" : [ "spam4" ]
+								"value" : [ "Macintosh HD:/Users/vichug/Desktop/01-130410_2139.wav" ]
 							}
  ]
 					}
@@ -1636,19 +1643,19 @@
 						"count" : 4,
 						"data" : [ 							{
 								"key" : 1,
-								"value" : [ "evenementhorribleFormatted.aiff" ]
+								"value" : [ "hgahg" ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ "mageessai5" ]
+								"value" : [ "  .aif" ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ "evenementhorribleFormatted.aiff" ]
+								"value" : [ "underwater 2.aif" ]
 							}
 , 							{
 								"key" : 4,
-								"value" : [ "spam4" ]
+								"value" : [ "Macintosh HD:/Users/vichug/Desktop/01-130410_2139.wav" ]
 							}
  ]
 					}
@@ -2166,11 +2173,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-30",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 437.0, 307.0, 58.0, 20.0 ],
-					"text" : "route 0 1"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 437.0, 307.0, 68.0, 20.0 ],
+					"text" : "route 0 1 2"
 				}
 
 			}
@@ -2579,7 +2586,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
-					"items" : [ "Choose", "new", "file...", ",", "Choose", "folder...", ",", "Re-import", "from", "main", ",", "-", ",", "evenementhorrible.aiff", ",", "evenementhorribleFormatted.aiff", ",", "mage3.aif", ",", "mage3aifCPY.wav", ",", "mage6.aiff", ",", "mage7.aiff", ",", "mageessai5", ",", "magespam.aif", ",", "spam2", ",", "spam4", ",", "spam4aifCPY", ",", "spam4CPY", ",", "spam4CPYCPY" ],
+					"items" : [ "Choose", "new", "file...", ",", "Choose", "folder...", ",", "Re-import", "from", "main", ",", "-" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2601,9 +2608,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 392.0, 418.0, 50.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 429.5, 181.0, 50.0, 20.0 ]
+					"patching_rect" : [ 392.0, 418.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -2618,9 +2623,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 392.0, 492.0, 103.0, 59.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 429.5, 201.0, 103.0, 59.0 ],
 					"text" : ";\r$1menu \"symbol \\\"Re-import from main\\\" \""
 				}
 
@@ -2947,8 +2949,17 @@
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 466.0, 334.0, 739.0, 334.0, 739.0, 126.0, 553.5, 126.0 ],
+					"midpoints" : [ 462.833344, 334.0, 739.0, 334.0, 739.0, 126.0, 553.5, 126.0 ],
 					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 2 ]
 				}
 
 			}
@@ -3402,56 +3413,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "autocollfiller.maxpat",
-				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/soundwander_cln_pers/patchers",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soundscoll.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "filepaths.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "currentfiles.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "loops.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "trigmodes.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sfcolors.maxpat",
-				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/soundwander_cln_pers/patchers",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sfcolor.maxpat",
-				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/soundwander_cln_pers/patchers",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
