@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 829.0, 826.0 ],
+		"rect" : [ 477.0, 44.0, 829.0, 826.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,6 +36,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 610.0, 779.0, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -46,12 +50,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-86",
-					"linecount" : 4,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.5, 143.0, 136.5, 60.0 ],
-					"text" : "cas du mode \"brutal\" : arrêt à la sortie de la sphère, pas de reprise \"smooth\""
+					"patching_rect" : [ 43.5, 143.0, 96.0, 87.0 ],
+					"text" : "\"direct\" mode : stop when getting out of trigger sphere, no smooth reprisal"
 				}
 
 			}
@@ -65,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 462.5, 119.0, 309.0, 20.0 ],
-					"text" : "cas du mode principal : lire la fin du sample avant arrêt"
+					"text" : "default mode : read the whole sample before stop"
 				}
 
 			}
@@ -341,7 +345,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 53.0, 80.0, 20.0 ],
-					"text" : "coordonnées"
+					"text" : "coordinates"
 				}
 
 			}
@@ -453,7 +457,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 474.5, 39.5, 81.0, 20.0 ],
-					"text" : "trigger 0 ou 1"
+					"text" : "trigger (0/1)"
 				}
 
 			}
@@ -467,8 +471,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 440.0, 70.0, 47.0 ],
-					"text" : "un bang ici démarre la lecture"
+					"patching_rect" : [ 306.5, 435.0, 70.0, 47.0 ],
+					"text" : "bang hear starts sound"
 				}
 
 			}
@@ -546,6 +550,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 120.5, 801.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 2"
 				}
 
@@ -560,6 +568,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 801.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -631,10 +643,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 33.0, 30.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 4"
 				}
 
@@ -664,10 +672,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 505.5, 482.0, 30.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 3"
 				}
 
@@ -711,6 +715,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 443.5, 39.5, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 2"
 				}
 
@@ -781,6 +789,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 49.0, 33.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -1386,8 +1398,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "loops.txt",
-				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debug",
+				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debug",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

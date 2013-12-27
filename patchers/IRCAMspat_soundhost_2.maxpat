@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 760.0, 313.0, 615.0, 296.0 ],
+		"rect" : [ 494.0, 568.0, 664.0, 302.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,736 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 61.0, 44.0, 710.0, 660.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 11.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 239.0, 759.0, 73.0, 19.0 ],
+									"text" : "route symbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-34",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 33.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-80",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 105.5, 57.0, 20.0 ],
+									"text" : "append \\,"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-79",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 78.0, 98.0, 20.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-33",
+									"linecount" : 17,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 134.5, 654.0, 232.0 ],
+									"text" : "source 1 pres 30.566, source 1 pres 29.434, source 1 warmth 43., source 1 bril 41., source 1 prer 89., source 1 revp 29., source 1 env 28., source 1 env 27., source 1 env 26., source 1 env 25., room 1 reverberance 72., room 1 reverberance 71., room 1 heaviness 20., room 1 liveness 33., room 1 liveness 32., room 1 early start 25.56, room 1 early end 46.92, room 1 early distr 0.45, room 1 cluster start 42.23, room 1 cluster end 114.73, room 1 cluster distr 0.48, room 1 reverb start 103.26, room 1 reverb modaldensity 0.73, room 1 early start 25.29, room 1 early end 45.11, room 1 early distr 0.45, room 1 cluster start 40.6, room 1 cluster end 107.99, room 1 cluster distr 0.48, room 1 reverb start 97.19, room 1 reverb modaldensity 0.68, room 1 early start 24.58, room 1 early end 39.17, room 1 early distr 0.46, room 1 early shape 0.52, room 1 cluster start 43.31, room 1 cluster end 113.83, room 1 cluster distr 0.5, room 1 reverb start 90.44, room 1 reverb modaldensity 0.67, room 1 active 0, room 1 active 1, room 1 infinite 1, room 1 infinite 0, room 1 air 0, room 1 air 1, room 1 airfreq 9811., room 1 reverb fl 342., room 1 reverb fh 8141., room 1 reverb fh 8406., source 1 pres 90., source 1 warmth 30., source 1 bril 30., source 1 prer 48., source 1 revp 34., source 1 env 24., source 1 aperture 80., source 1 early width 30., source 1 drop 6., source 1 dropmode log2, source 1 radius 1., room 1 reverberance 65., room 1 heaviness 25., room 1 liveness 35., room 1 early end 39.71, room 1 cluster start 42.47, room 1 cluster end 105.64, room 1 reverb start 95.37, room 1 early distr 0.5, room 1 early shape 0.5, room 1 cluster distr 0.5, room 1 reverb modaldensity 0.86, room 1 airfreq 10000., room 1 reverb fl 250., room 1 reverb fh 8000., room 1 early start 22.22, channel 1 cascade 1 freq 1000., channel 1 cascade 1 Q 1., channel 1 cascade 1 gain 0., channel 1 cascade 1 type Null, channel 2 cascade 1 freq 1000., channel 2 cascade 1 Q 1., channel 2 cascade 1 gain 0., channel 2 cascade 1 type Null,"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-32",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 86.0, 899.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-31",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 386.0, 865.0, 32.5, 17.0 ],
+									"text" : "set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.0, 790.0, 67.0, 19.0 ],
+									"text" : "fromsymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 328.0, 835.0, 32.0, 19.0 ],
+									"text" : "print"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.0, 882.0, 91.0, 19.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 93.0, 759.0, 73.0, 19.0 ],
+									"text" : "route symbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-21",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 128.0, 719.0, 38.0, 17.0 ],
+									"text" : "dump"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-19",
+									"linecount" : 9,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.0, 927.0, 507.0, 115.0 ],
+									"text" : "channel 1 cascade 1 Q 1., channel 1 cascade 1 freq 1000., channel 1 cascade 1 gain 0., channel 1 cascade 1 type Null, channel 2 cascade 1 Q 1., channel 2 cascade 1 freq 1000., channel 2 cascade 1 gain 0., channel 2 cascade 1 type Null, room 1 active 1, room 1 air 1, room 1 airfreq 9811., room 1 cluster distr 0.48, room 1 cluster end 114.73, room 1 cluster start 42.23, room 1 early distr 0.45, room 1 early end 46.92, room 1 early shape 0.5, room 1 early start 22.22, room 1 heaviness 25., room 1 infinite 0, room 1 liveness 35., room 1 reverb fh 8406., room 1 reverb fl 342., room 1 reverb modaldensity 0.73, room 1 reverb start 103.26, room 1 reverberance 65., source 1 aperture 80., source 1 bril 30., source 1 drop 6., source 1 dropmode log2, source 1 early width 30., source 1 env 24., source 1 prer 48., source 1 pres 90., source 1 radius 1., source 1 revp 34., source 1 warmth 30."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.0, 848.0, 53.0, 19.0 ],
+									"text" : "append \\,"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.0, 820.0, 88.0, 19.0 ],
+									"text" : "join @triggers 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 426.0, 569.0, 32.5, 19.0 ],
+									"text" : "join"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-14",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 322.0, 713.0, 34.0, 17.0 ],
+									"text" : "clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-12",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 316.0, 753.0, 257.0, 17.0 ],
+									"text" : "store \"channel 2 cascade 1 type\" Null"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 183.0, 656.0, 32.5, 19.0 ],
+									"text" : "join"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.0, 620.0, 55.0, 19.0 ],
+									"text" : "tosymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 184.0, 734.0, 59.5, 19.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0
+									}
+,
+									"text" : "coll"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.0, 701.0, 66.0, 17.0 ],
+									"text" : "store $1 $2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 239.0, 568.0, 53.0, 19.0 ],
+									"text" : "zl ecils 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 368.5, 620.0, 55.0, 17.0 ],
+									"text" : "sort -1 -1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 408.0, 678.0, 59.5, 19.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0
+									}
+,
+									"text" : "coll"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 47.0, 583.0, 69.0, 19.0 ],
+									"text" : "autocollfiller"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-78",
+									"linecount" : 10,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 388.0, 624.0, 139.0 ],
+									"text" : "source 1 revp 29., source 1 env 28., room 1 reverberance 72., room 1 heaviness 20., room 1 liveness 32., room 1 early start 25.56, room 1 early end 46.92, room 1 early distr 0.45, room 1 cluster start 42.23, room 1 cluster end 114.73, room 1 cluster distr 0.48, room 1 reverb start 103.26, room 1 reverb modaldensity 0.73, room 1 active 1, room 1 infinite 0, room 1 air 1, room 1 airfreq 9811., room 1 reverb fl 342., room 1 reverb fh 8406., source 1 pres 90., source 1 warmth 30., source 1 bril 30., source 1 prer 48., source 1 revp 34., source 1 env 24., source 1 aperture 80., source 1 early width 30., source 1 drop 6., source 1 dropmode log2, source 1 radius 1., room 1 reverberance 65., room 1 heaviness 25., room 1 liveness 35., room 1 early shape 0.5, room 1 early start 22.22, channel 1 cascade 1 freq 1000., channel 1 cascade 1 Q 1., channel 1 cascade 1 gain 0., channel 1 cascade 1 type Null, channel 2 cascade 1 freq 1000., channel 2 cascade 1 Q 1., channel 2 cascade 1 gain 0., channel 2 cascade 1 type Null,"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-79", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-35", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-78", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-78", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-80", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 24.5, 104.5 ],
+									"source" : [ "obj-79", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-80", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1036.0, 391.0, 18.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 313.935303, 57.5, 18.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 11.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-73",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 874.0, 378.0, 41.0, 18.0 ],
+					"text" : "dump"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-66",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 767.250061, 439.0, 51.0, 18.0 ],
+					"text" : "target 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 247.0, 14.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 127.0, 39.5, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -377,7 +1107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 679.935303, 302.5, 65.0, 18.0 ],
-					"text" : "target 24"
+					"text" : "target 3"
 				}
 
 			}
@@ -797,7 +1527,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1065,6 +1795,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 93.0, 6.0, 144.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 81.0, 5.0, 112.0, 33.0 ],
 					"text" : "receive soundtobeplayed"
 				}
 
@@ -1343,7 +2076,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 246.0, 106.0, 20.0 ],
-					"save" : [ "#N", "sflist~", "sourcecues", 0, ";", "#X", "preload", 41, "ventportecnrjouéAdécouperoupas.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 35, "SCVdes cloches inquiétantes.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 34, "SCVimpactpuisdescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 33, "SCVmarteau piqueur.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 32, "SCVmontéepuisdescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 31, "SCVquelques instants de calme relatif.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 26, "SMD12MDescenteLongueRésonance.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 25, "SMD6MExtrait2Descente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 21, "SMD5MExtrait1CourtDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 13, "SMD22PDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 6, "SCVdes voix.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 7, "SCVdes voix inquiétantes.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 8, "SMD19MMontéeEtedndue.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 9, "SMD20MMontéeDescenteGrave.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 10, "SMD13MDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 11, "SMD27PDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 12, "SMD18Montée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 14, "SMD13MDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 15, "SMD14MLégèreMontée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 16, "SMD15Unimpact.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 17, "SMD16Montée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 18, "SMD17MontéeDescenteMontée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 19, "SMD2MMonte.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 20, "SMD3DescendDepuistrèsaigu.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 22, "SMD7MExtrait3Straight.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 23, "SMD8MStraight.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 24, "SMD9MCourteDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 29, "SMD25PDescenteetAcc.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 27, "SMD20MMontéeDescenteGrave.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 28, "SMD21PDesente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "embed", 1, ";" ],
+					"save" : [ "#N", "sflist~", "sourcecues", 0, ";", "#X", "preload", 28, "SMD21PDesente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 27, "SMD20MMontéeDescenteGrave.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 29, "SMD25PDescenteetAcc.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 24, "SMD9MCourteDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 23, "SMD8MStraight.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 22, "SMD7MExtrait3Straight.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 20, "SMD3DescendDepuistrèsaigu.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 19, "SMD2MMonte.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 18, "SMD17MontéeDescenteMontée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 17, "SMD16Montée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 16, "SMD15Unimpact.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 15, "SMD14MLégèreMontée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 14, "SMD13MDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 12, "SMD18Montée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 11, "SMD27PDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 10, "SMD13MDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 9, "SMD20MMontéeDescenteGrave.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 8, "SMD19MMontéeEtedndue.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 7, "SCVdes voix inquiétantes.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 6, "SCVdes voix.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 13, "SMD22PDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 21, "SMD5MExtrait1CourtDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 25, "SMD6MExtrait2Descente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 26, "SMD12MDescenteLongueRésonance.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 31, "SCVquelques instants de calme relatif.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 32, "SCVmontéepuisdescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 33, "SCVmarteau piqueur.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 34, "SCVimpactpuisdescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 35, "SCVdes cloches inquiétantes.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 41, "ventportecnrjouéAdécouperoupas.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 43, "Rec-13.05.22-silence4mn.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 42, "Rec-13.06.17-03h09m55sPierreukuvlsloooowspid.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 40, "Rec-13.06.17-03h08m34sAngoulemefoulespeedpuisslow.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 39, "Rec-13.06.17-03h20m18sAugoulemefoulespeed.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 38, "Rec-13.06.11-10h35m27sralentiuncinquiemegranuleux.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 37, "accordsgranuleux2.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 36, "accordsgranuleux1.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 30, "STE-024.wav", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 5, "SMD11MMontée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 4, "SMD6MExtrait2Descente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 3, "SMD5MExtrait1CourtDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 2, "Territoire innomé441.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "embed", 1, ";" ],
 					"text" : "sflist~ sourcecues"
 				}
 
@@ -1667,6 +2400,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1910,6 +2652,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2054,6 +2805,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2117,6 +2877,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2148,6 +2917,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-73", 0 ]
 				}
 
 			}
@@ -2383,21 +3161,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "IRCAMspat_twosounds.maxpat",
-				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/soundwander_cln_pers/patchers",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "loops.txt",
+				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
+				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "trigmodes.txt",
+				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
+				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "spat.hrtf.selection.maxpat",
-				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/soundwander_cln_pers/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max608/patchesMax6/_externals/spat-ircam/abstractions",
+				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/_externals/spat-ircam/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autocollfiller.maxpat",
-				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/soundwander_cln_pers/patchers",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

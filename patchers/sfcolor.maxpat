@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -29,6 +29,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -124.0, 146.5, 44.0, 20.0 ],
+					"text" : "r color"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -360,7 +375,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 152.0, 201.5, 32.5, 18.0 ],
+					"patching_rect" : [ -57.0, 198.5, 32.5, 18.0 ],
 					"text" : "36"
 				}
 
@@ -375,7 +390,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 85.0, 294.0, 215.0, 20.0 ],
+					"patching_rect" : [ -124.0, 291.0, 215.0, 20.0 ],
 					"text" : "regexp \"cell (\\\\d+) val\" @substitute %0"
 				}
 
@@ -390,7 +405,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 85.0, 201.5, 32.5, 20.0 ],
+					"patching_rect" : [ -124.0, 198.5, 32.5, 20.0 ],
 					"text" : "- 1"
 				}
 
@@ -405,7 +420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 177.5, 79.0, 20.0 ],
+					"patching_rect" : [ -124.0, 174.5, 79.0, 20.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -420,7 +435,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 229.5, 72.0, 18.0 ],
+					"patching_rect" : [ -124.0, 226.5, 72.0, 18.0 ],
 					"text" : "getcell $1 0"
 				}
 
@@ -435,7 +450,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 85.0, 260.5, 97.0, 20.0 ],
+					"patching_rect" : [ -124.0, 257.5, 97.0, 20.0 ],
 					"text" : "jit.matrix colors2"
 				}
 
@@ -669,7 +684,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 358.0, 4.5, 67.0, 20.0 ],
+					"patching_rect" : [ 366.0, 4.5, 67.0, 20.0 ],
 					"text" : "r updateall"
 				}
 
@@ -948,7 +963,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 3.0, 436.0, 60.0, 20.0 ],
+					"patching_rect" : [ 21.5, 422.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1055,7 +1070,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1644,7 +1659,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 462.5, 43.0, 18.0 ],
+					"patching_rect" : [ 21.5, 454.5, 43.0, 18.0 ],
 					"text" : "set #1"
 				}
 
@@ -2218,6 +2233,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-66", 0 ]
 				}
 
 			}
