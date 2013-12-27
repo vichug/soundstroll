@@ -1,0 +1,81 @@
+
+
+--SOUNDSTROLL--
+
+SOUNDSTROLL is a "three-dimensional sequencer"
+Each solid sphere represents the position of a sound source in a space,
+each gridshape sphere is a 'trigger' linked to a sound source - solid sphere of same color,
+the crossing of a trigger by the user will start the linked source.
+
+The sources are spatialised in space, around the user,
+akin real sound sources in a real environment in which one moves.
+
+
+--START--
+
+
+First open
+shapes, sfcolorsgui then a patch which names includes "soundhost",
+depending on desired spatialisation engine.
+
+Saving a scene : 
+use button commented "save" in shapes OR
+the button commented "save" in sfcolorsgui.
+In both cases, it is needed to select or create a folder, which will contain
+the scene thus recorded.
+
+Recalling a scene : 
+use button commented "read" in shapes OR
+the button commented "save" in sfcolorsgui.
+Select a folder containing desired scene.
+
+( If a scene is not well recalled/is making difficulties at startup :
+	-rescale, in linked mode, rebellious triger spheres
+	-change mode (linked/not linked) once each.
+	-slightly move a sphere.
+	-"Re-import from main" sounds of sfcolorsgui which are not correcly recalled.
+If nothing works, a Max reboot can help...)
+
+
+--COMMANDS--
+
+
+&		to enable/disable following keyboard commands
+
+
+ESCAPE	toggle fullscreen on/off
+
+t 		show/hide trigger spheres
+
+c		constrain/free rotation to/from vertical axis
+
+y		link/unlink positions of source and trigger spheres
+
+n		create a new sphere
+
+o		go back to origin
+
+ESPACE 	to enable/disable navigation
+
+zqsd + mouse	to move (forward left back right)
+	z	forward
+	q	left
+	s	back
+	d	right
+
+	a	up
+	w	down
+
+
+CMD(mac) or CTL(windows)+LEFT CLICk
+	+ mouse up
+		to increase the size of a trigger sphere 
+	+ mouse down
+		decrease the size of a trigger sphere
+
+
+ALT+LEFT CLICK
+	+ mouse up
+		move a sphere away
+	+ mouse down
+		bring a sphere back towards user.

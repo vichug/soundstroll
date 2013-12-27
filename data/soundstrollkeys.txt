@@ -1,0 +1,44 @@
+__SHORTCUTS__
+
+--GENERAL--
+
+ESCAPE : toggle fullscreen
+
+h : show/hide this help
+
+& : toggles listening to user input, 
+except movement controls/spheres manipulations 
+(on which it has no effect)
+
+--MOVEMENTS--
+
+SPACEBAR : toggles moving with keyboard and mouse
+
+c : constraints/free movements to/from current 2D plane
+
+z q s d : forth left back right
+a : up
+w : down
+mouse : orientation
+
+o : goes back to origin
+
+--SPHERES--
+
+n : create new sphere and trigger
+
+y : toggles link between moving source and trigger
+
+t : show/hide trigger spheres
+
+left mouse click + mouse drag : move a sphere
+ * if link between source and trigger is on, only sources spheres can be clicked on,
+and matching trigger sphere will move along one source sphere - 
+moving a source sphere will replace matching trigger sphere at same position
+ * if link is off, trigger or source sphere can be selected and won't affect
+matching source or trigger sphere
+
+COMMAND(mac) or CONTROL(windows) + left mouse click + mouse drag :
+resize a trigger sphere (when clicking on a source sphere _or_ a trigger sphere)
+
+ALT + left mouse click + mouse drag : move sphere on depth axis (relatively to current viewpoint)
