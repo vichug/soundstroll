@@ -1,0 +1,15 @@
+KNOWN ISSUES :
+*no undo/redo
+*no way to delete a sphere
+*if you want to load or create another scene after having worked with one scene which has more sound sources, the only reliable way so far is to completely leave and restart Max
+*the contextual right-clic menu may need several right click to be invoked
+*it will be difficult to share a saved scene across computers
+*interface (outside of scene) is still pretty basic text and buttons
+*may need some reading before having it working.
+*spheres blinking may be expensive on cpu (can be disabled though)
+*can be buggy when only 1 sphere is in scene.
+*It is usefull to toggle between activating or deactivating mouse and keyboard movement controls with spacebar, but when activating back, there may be a brutal instantaneous disorientation of the mouse (i'm not sure, but it may be a problem of jit.anim.drive)
+*there is currently a maxium of 64 spheres. This is changeable in the soundhost patcher, it is simply for performance issue ; if needed just change the number of poly~ voices since there is 1 source per voice.
+*the resetting of color after blinking can be buggy
+
+*for now, the only soundhosts patchers really working an debugged are IRCAMspat_soundhost_2 (which needs a paid license of the Ircam's Spat suite of externals) and HOA_soundhost_2 (which needs HOA tools installed, which are free :) )

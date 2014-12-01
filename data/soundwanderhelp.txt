@@ -6,7 +6,7 @@ ESCAPE : toggle fullscreen
 
 h : show/hide this help
 
-& : toggles listening to user input, 
+tab : toggles listening to user input, 
 except movement controls/spheres manipulations 
 (on which it has no effect)
 
@@ -20,6 +20,10 @@ z q s d : forth left back right
 a : up
 w : down
 mouse : orientation
+
+> : accelerate default speed
+< : decelerate default speed
+maintain SHIFT to slow down
 
 o : goes back to origin
 
@@ -42,3 +46,9 @@ COMMAND(mac) or CONTROL(windows) + left mouse click + mouse drag :
 resize a trigger sphere (when clicking on a source sphere _or_ a trigger sphere)
 
 ALT + left mouse click + mouse drag : move sphere on depth axis (relatively to current viewpoint)
+
+right mouse click (or CONTROL + left mouse click on Mac) 
+when hovering over a sphere :
+ open/close contextual menu of that sphere : change color, sound source, loop and trigger mode
+ * if link between source and trigger is on, only sources spheres can be right-clicked on
+ * if link is off, trigger or source sphere can be right-clicked to make the menu appear

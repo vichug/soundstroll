@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 494.0, 568.0, 664.0, 302.0 ],
+		"rect" : [ 1028.0, 592.0, 278.0, 249.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,6 +31,123 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-97",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 421.0, 267.0, 109.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 92.0, 109.0, 109.0, 33.0 ],
+					"text" : "blinks when a sound is triggered"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-93",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 161.0, 299.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 92.0, 57.5, 126.0, 47.0 ],
+					"text" : "blinks when receiving sounds movement information"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-80",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 33.0, 551.0, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 60.5, 216.5, 170.0, 20.0 ],
+					"text" : "open a specific poly~ instance"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-78",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.935303, 633.5, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 60.5, 184.580017, 164.0, 20.0 ],
+					"text" : "main out (motu 828 mk3)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-76",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.935303, 593.5, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 60.5, 156.0, 164.0, 20.0 ],
+					"text" : "headphones (motu 828 mk3)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"id" : "obj-72",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 63.435303, 652.080017, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 222.833313, 5.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-70",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 274.0, 6.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 92.0, 5.0, 129.0, 47.0 ],
+					"text" : "blinks when receiving a list of sounds (while reading a scene)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -41,11 +158,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 61.0, 44.0, 710.0, 660.0 ],
+						"rect" : [ 690.0, 44.0, 710.0, 660.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -64,7 +181,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -129,7 +245,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 134.5, 654.0, 232.0 ],
+									"patching_rect" : [ 15.0, 134.5, 660.0, 232.0 ],
 									"text" : "source 1 pres 30.566, source 1 pres 29.434, source 1 warmth 43., source 1 bril 41., source 1 prer 89., source 1 revp 29., source 1 env 28., source 1 env 27., source 1 env 26., source 1 env 25., room 1 reverberance 72., room 1 reverberance 71., room 1 heaviness 20., room 1 liveness 33., room 1 liveness 32., room 1 early start 25.56, room 1 early end 46.92, room 1 early distr 0.45, room 1 cluster start 42.23, room 1 cluster end 114.73, room 1 cluster distr 0.48, room 1 reverb start 103.26, room 1 reverb modaldensity 0.73, room 1 early start 25.29, room 1 early end 45.11, room 1 early distr 0.45, room 1 cluster start 40.6, room 1 cluster end 107.99, room 1 cluster distr 0.48, room 1 reverb start 97.19, room 1 reverb modaldensity 0.68, room 1 early start 24.58, room 1 early end 39.17, room 1 early distr 0.46, room 1 early shape 0.52, room 1 cluster start 43.31, room 1 cluster end 113.83, room 1 cluster distr 0.5, room 1 reverb start 90.44, room 1 reverb modaldensity 0.67, room 1 active 0, room 1 active 1, room 1 infinite 1, room 1 infinite 0, room 1 air 0, room 1 air 1, room 1 airfreq 9811., room 1 reverb fl 342., room 1 reverb fh 8141., room 1 reverb fh 8406., source 1 pres 90., source 1 warmth 30., source 1 bril 30., source 1 prer 48., source 1 revp 34., source 1 env 24., source 1 aperture 80., source 1 early width 30., source 1 drop 6., source 1 dropmode log2, source 1 radius 1., room 1 reverberance 65., room 1 heaviness 25., room 1 liveness 35., room 1 early end 39.71, room 1 cluster start 42.47, room 1 cluster end 105.64, room 1 reverb start 95.37, room 1 early distr 0.5, room 1 early shape 0.5, room 1 cluster distr 0.5, room 1 reverb modaldensity 0.86, room 1 airfreq 10000., room 1 reverb fl 250., room 1 reverb fh 8000., room 1 early start 22.22, channel 1 cascade 1 freq 1000., channel 1 cascade 1 Q 1., channel 1 cascade 1 gain 0., channel 1 cascade 1 type Null, channel 2 cascade 1 freq 1000., channel 2 cascade 1 Q 1., channel 2 cascade 1 gain 0., channel 2 cascade 1 type Null,"
 								}
 
@@ -438,13 +554,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-78",
-									"linecount" : 10,
+									"linecount" : 9,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 388.0, 624.0, 139.0 ],
-									"text" : "source 1 revp 29., source 1 env 28., room 1 reverberance 72., room 1 heaviness 20., room 1 liveness 32., room 1 early start 25.56, room 1 early end 46.92, room 1 early distr 0.45, room 1 cluster start 42.23, room 1 cluster end 114.73, room 1 cluster distr 0.48, room 1 reverb start 103.26, room 1 reverb modaldensity 0.73, room 1 active 1, room 1 infinite 0, room 1 air 1, room 1 airfreq 9811., room 1 reverb fl 342., room 1 reverb fh 8406., source 1 pres 90., source 1 warmth 30., source 1 bril 30., source 1 prer 48., source 1 revp 34., source 1 env 24., source 1 aperture 80., source 1 early width 30., source 1 drop 6., source 1 dropmode log2, source 1 radius 1., room 1 reverberance 65., room 1 heaviness 25., room 1 liveness 35., room 1 early shape 0.5, room 1 early start 22.22, channel 1 cascade 1 freq 1000., channel 1 cascade 1 Q 1., channel 1 cascade 1 gain 0., channel 1 cascade 1 type Null, channel 2 cascade 1 freq 1000., channel 2 cascade 1 Q 1., channel 2 cascade 1 gain 0., channel 2 cascade 1 type Null,"
+									"patching_rect" : [ 15.0, 388.0, 679.0, 125.0 ],
+									"text" : "source 1 revp 29., source 1 env 28., room 1 reverberance 72., room 1 heaviness 20., room 1 liveness 32., room 1 early start 25.56, room 1 early end 46.92, room 1 early distr 0.45, room 1 cluster start 42.23, room 1 cluster end 114.73, room 1 cluster distr 0.48, room 1 reverb start 103.26, room 1 reverb modaldensity 0.73, room 1 active 1, room 1 infinite 0, room 1 air 1, room 1 airfreq 9811., room 1 reverb fl 342., room 1 reverb fh 8406., source 1 pres 90., source 1 warmth 30., source 1 bril 30., source 1 prer 48., source 1 revp 34., source 1 env 24., source 1 aperture 80., source 1 early width 30., source 1 drop 6., source 1 dropmode log2, source 1 radius 1., room 1 reverberance 65., room 1 heaviness 25., room 1 liveness 35., room 1 early shape 0.5, room 1 early start 22.22, channel 1 cascade 1 freq 1000., channel 1 cascade 1 Q 1., channel 1 cascade 1 gain 0., channel 1 cascade 1 type Null, channel 2 cascade 1 freq 1000., channel 2 cascade 1 Q 1., channel 2 cascade 1 gain 0., channel 2 cascade 1 type Null"
 								}
 
 							}
@@ -698,7 +814,7 @@
 ,
 					"patching_rect" : [ 1036.0, 391.0, 18.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 313.935303, 57.5, 18.0, 20.0 ],
+					"presentation_rect" : [ 4.435303, 73.0, 18.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -753,7 +869,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 247.0, 14.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 127.0, 39.5, 20.0, 20.0 ]
+					"presentation_rect" : [ 72.0, 18.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -767,8 +883,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 609.333313, 247.0, 37.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 558.935303, 102.5, 37.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -783,8 +897,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 554.333313, 274.0, 74.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 534.935303, 122.0, 74.0, 20.0 ],
 					"text" : "autocollfiller"
 				}
 
@@ -856,9 +968,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 816.935303, 485.5, 164.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 336.5, 122.0, 164.0, 31.0 ],
 					"text" : "target 26, source 1 pres 60.905701, source 1 prer 60."
 				}
 
@@ -873,8 +982,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 807.935303, 467.5, 197.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 327.5, 104.0, 197.0, 18.0 ],
 					"text" : "target 24, source 1 pres 55.433998"
 				}
 
@@ -889,8 +996,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 623.5, 76.0, 32.5, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 336.5, 18.5, 32.5, 18.0 ],
 					"text" : "22"
 				}
 
@@ -906,9 +1011,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 721.935303, 76.0, 161.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 434.935303, 18.5, 161.0, 33.0 ],
 					"text" : "système de \"preset\" rudimentaire du spat.oper"
 				}
 
@@ -937,8 +1039,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 666.935303, 76.0, 44.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 379.935303, 18.5, 44.0, 18.0 ],
 					"text" : "1, 2, 3"
 				}
 
@@ -1075,9 +1175,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 825.935303, 249.0, 50.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 507.935303, 57.5, 50.0, 20.0 ]
+					"patching_rect" : [ 825.935303, 249.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1091,8 +1189,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 825.935303, 273.5, 58.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 507.935303, 82.0, 58.0, 18.0 ],
 					"text" : "target $1"
 				}
 
@@ -1107,7 +1203,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 679.935303, 302.5, 65.0, 18.0 ],
-					"text" : "target 3"
+					"text" : "target 0"
 				}
 
 			}
@@ -1135,8 +1231,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 666.435303, 249.0, 141.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 348.435303, 57.5, 141.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1170,6 +1264,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 824.0, 424.0, 116.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 4.435303, 90.5, 64.0, 47.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1203,8 +1300,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 21.935303, 462.0, 58.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 30.935303, 196.0, 58.0, 20.0 ],
 					"text" : "metro 20"
 				}
 
@@ -1217,9 +1312,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 21.935303, 434.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 30.935303, 175.0, 20.0, 20.0 ]
+					"patching_rect" : [ 21.935303, 434.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1233,8 +1326,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 21.935303, 495.0, 71.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 30.935303, 213.5, 71.0, 18.0 ],
 					"text" : "mutemap 1"
 				}
 
@@ -1249,9 +1340,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 563.833313, 583.0, 50.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 222.833313, 83.580017, 50.0, 20.0 ]
+					"patching_rect" : [ 563.833313, 583.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1290,9 +1379,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 307.0, 356.0, 20.0, 20.0 ],
+					"patching_rect" : [ 161.0, 348.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.0, 270.5, 20.0, 20.0 ]
+					"presentation_rect" : [ 73.398041, 70.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1362,9 +1451,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.75, 618.5, 32.5, 18.0 ],
+					"patching_rect" : [ 177.75, 635.5, 32.5, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 176.75, 152.0, 32.5, 18.0 ],
+					"presentation_rect" : [ 19.935303, 184.580017, 32.5, 18.0 ],
 					"text" : "1 2"
 				}
 
@@ -1420,9 +1509,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.75, 583.0, 41.0, 18.0 ],
+					"patching_rect" : [ 177.75, 608.5, 41.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 176.75, 116.5, 41.0, 18.0 ],
+					"presentation_rect" : [ 15.435303, 156.0, 41.0, 18.0 ],
 					"text" : "13 14"
 				}
 
@@ -1437,8 +1526,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 186.0, 341.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 143.0, 246.5, 100.0, 20.0 ],
 					"text" : "receive positions"
 				}
 
@@ -1527,7 +1614,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1736,9 +1823,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 736.935303, 555.080017, 173.0, 92.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 379.935303, 185.5, 173.0, 92.0 ]
+					"patching_rect" : [ 736.935303, 555.080017, 173.0, 92.0 ]
 				}
 
 			}
@@ -1795,9 +1880,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 93.0, 6.0, 144.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 81.0, 5.0, 112.0, 33.0 ],
 					"text" : "receive soundtobeplayed"
 				}
 
@@ -1811,8 +1893,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.0, 220.0, 57.0, 18.0 ],
-					"text" : "embed 1"
+					"patching_rect" : [ 149.0, 221.5, 57.0, 18.0 ],
+					"text" : "embed 0"
 				}
 
 			}
@@ -1838,9 +1920,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 72.0, 275.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 12.935303, 54.0, 20.0, 20.0 ]
+					"patching_rect" : [ 72.0, 275.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1854,8 +1934,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 72.0, 302.0, 54.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 12.935303, 81.0, 54.0, 20.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -1887,7 +1965,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 138.833328, 509.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.935303, 246.5, 50.0, 20.0 ]
+					"presentation_rect" : [ 7.435303, 216.5, 50.0, 20.0 ]
 				}
 
 			}
@@ -1943,8 +2021,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 42.0, 176.0, 37.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.935303, 5.0, 37.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -1958,8 +2034,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 72.0, 327.0, 63.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 12.935303, 106.0, 63.0, 20.0 ],
 					"text" : "print cues"
 				}
 
@@ -1974,8 +2048,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 138.833328, 528.5, 54.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 30.935303, 266.0, 54.0, 18.0 ],
 					"text" : "open $1"
 				}
 
@@ -2032,8 +2104,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 42.0, 197.0, 60.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.935303, 26.0, 60.0, 18.0 ],
 					"text" : "cuedump"
 				}
 
@@ -2076,7 +2146,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 246.0, 106.0, 20.0 ],
-					"save" : [ "#N", "sflist~", "sourcecues", 0, ";", "#X", "preload", 28, "SMD21PDesente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 27, "SMD20MMontéeDescenteGrave.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 29, "SMD25PDescenteetAcc.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 24, "SMD9MCourteDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 23, "SMD8MStraight.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 22, "SMD7MExtrait3Straight.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 20, "SMD3DescendDepuistrèsaigu.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 19, "SMD2MMonte.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 18, "SMD17MontéeDescenteMontée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 17, "SMD16Montée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 16, "SMD15Unimpact.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 15, "SMD14MLégèreMontée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 14, "SMD13MDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 12, "SMD18Montée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 11, "SMD27PDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 10, "SMD13MDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 9, "SMD20MMontéeDescenteGrave.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 8, "SMD19MMontéeEtedndue.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 7, "SCVdes voix inquiétantes.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 6, "SCVdes voix.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 13, "SMD22PDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 21, "SMD5MExtrait1CourtDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 25, "SMD6MExtrait2Descente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 26, "SMD12MDescenteLongueRésonance.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 31, "SCVquelques instants de calme relatif.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 32, "SCVmontéepuisdescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 33, "SCVmarteau piqueur.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 34, "SCVimpactpuisdescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 35, "SCVdes cloches inquiétantes.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 41, "ventportecnrjouéAdécouperoupas.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 43, "Rec-13.05.22-silence4mn.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 42, "Rec-13.06.17-03h09m55sPierreukuvlsloooowspid.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 40, "Rec-13.06.17-03h08m34sAngoulemefoulespeedpuisslow.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 39, "Rec-13.06.17-03h20m18sAugoulemefoulespeed.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 38, "Rec-13.06.11-10h35m27sralentiuncinquiemegranuleux.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 37, "accordsgranuleux2.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 36, "accordsgranuleux1.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 30, "STE-024.wav", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 5, "SMD11MMontée.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 4, "SMD6MExtrait2Descente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 3, "SMD5MExtrait1CourtDescente.aif", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 2, "Territoire innomé441.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "embed", 1, ";" ],
+					"save" : [ "#N", "sflist~", "sourcecues", 0, ";" ],
 					"text" : "sflist~ sourcecues"
 				}
 
@@ -2119,8 +2189,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 306.101959, 267.0, 111.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 252.101959, 246.5, 111.0, 20.0 ],
 					"text" : "2e entrée : triggers"
 				}
 
@@ -2135,7 +2203,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 442.5, 555.080017, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 230.5, 103.580017, 48.0, 136.0 ],
+					"presentation_rect" : [ 222.833313, 57.5, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -2164,8 +2232,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 223.435303, 583.0, 90.5, 47.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 209.25, 26.0, 90.5, 47.0 ],
 					"text" : "stop",
 					"textcolor" : [ 0.360784, 0.341176, 0.321569, 1.0 ]
 				}
@@ -2182,8 +2248,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 209.0, 562.0, 72.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 209.25, 5.0, 72.0, 17.0 ],
 					"text" : "startwindow",
 					"textcolor" : [ 0.360784, 0.341176, 0.321569, 1.0 ]
 				}
@@ -2249,7 +2313,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
+					"numinlets" : 6,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 213.333313, 496.5, 473.666748, 20.0 ],
@@ -2266,7 +2330,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 455.0, 299.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.601959, 270.5, 20.0, 20.0 ]
+					"presentation_rect" : [ 73.398041, 115.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -2357,7 +2421,7 @@
 					"destination" : [ "obj-7", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 746.435303, 657.0, 688.0, 657.0, 688.0, 492.0, 677.500061, 492.0 ],
+					"midpoints" : [ 746.435303, 657.0, 688.0, 657.0, 688.0, 492.0, 586.566711, 492.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -3161,35 +3225,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "IRCAMspat_twosounds.maxpat",
-				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2/patchers",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "loops.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "trigmodes.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "spat.hrtf.selection.maxpat",
-				"bootpath" : "/Applications/Max608/patchesMax6/_externals/spat-ircam/abstractions",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/_externals/spat-ircam/abstractions",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autocollfiller.maxpat",
-				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2/patchers",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

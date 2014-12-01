@@ -1,9 +1,9 @@
 {
-	"name" : "SoundStroll",
+	"name" : "SoundStroll2_rls",
 	"version" : 1,
 	"creationdate" : -851374900,
-	"modificationdate" : -831789933,
-	"viewrect" : [ 1.0, 44.0, 361.0, 809.0 ],
+	"modificationdate" : -794658058,
+	"viewrect" : [ 9.0, 44.0, 361.0, 809.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -69,11 +69,52 @@
 ,
 			"IRCAMspat_soundhost_2.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"IRCAMspat_twosounds.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"network_relay.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"network_send.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"network_receive.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"IRCAMspat_soundhost_5.1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"IRCAMspat_fivesoundsdotone.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"welcome.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
-			"IRCAMspat_twosounds.maxpat" : 			{
+			"HOA_soundhost_2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
+			}
+,
+			"HOA_twosounds.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -89,28 +130,48 @@
 		}
 ,
 		"data" : 		{
-			"animdrivefps.json" : 			{
+			"qwertymovekeymapFlat.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"animdrivefpsFlat.json" : 			{
+			"qwertymovekeymap.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"help sequenceur 3D.txt" : 			{
+			"movekeymap.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"movekeymapFlat.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"help soundstroll.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"animdrivefpsFlatUpdown.json" : 			{
-				"kind" : "json",
+			"aide soundstroll.txt" : 			{
+				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"animdrivefpsUpdown.json" : 			{
-				"kind" : "json",
+			"soundstrollkeys.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"soundwanderhelp.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"Soundstroll_known_issues.txt" : 			{
+				"kind" : "textfile",
 				"local" : 1
 			}
 
@@ -121,12 +182,17 @@
 		}
 ,
 		"other" : 		{
-			"animdrivefps" : 			{
+			"soundwanderhelp.jit" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
 ,
-			"help sequenceur 3D.rtf" : 			{
+			"soundwanderhelphelp.jxf.jit" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"rls_demo.zip" : 			{
 				"kind" : "file",
 				"local" : 1
 			}

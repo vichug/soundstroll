@@ -6,7 +6,7 @@ ESCAPE : toggle fullscreen
 
 h : show/hide this help
 
-& : toggles listening to user input, 
+tab : toggles listening to user input, 
 except movement controls/spheres manipulations 
 (on which it has no effect)
 

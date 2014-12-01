@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 673.0, 339.0, 560.0, 260.0 ],
+		"rect" : [ 686.0, 44.0, 560.0, 260.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -29,6 +29,88 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 595.0, 99.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 507.0, 93.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 467.0, 134.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 429.5, 93.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 595.0, 47.0, 105.0, 19.0 ],
+					"text" : "r ChooseNewfolder"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 500.75, 47.0, 91.0, 19.0 ],
+					"text" : "r ChooseNewfile"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 4.0, 426.0, 64.0, 19.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 402.25, 99.0, 73.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 405.0, 47.5, 69.0, 72.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -45,8 +127,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "sfcolors.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 4.0, 3.0, 311.0, 413.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 0.0, 288.0, 260.0 ]
@@ -165,63 +247,6 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 13,
-						"data" : [ 							{
-								"key" : 1,
-								"value" : [ 0 ]
-							}
-, 							{
-								"key" : 12,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 11,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 10,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 9,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 8,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 7,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 6,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 5,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 4,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 3,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 2,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 41,
-								"value" : [ 0 ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-86",
@@ -231,7 +256,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 683.791687, 537.0, 76.999939, 20.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
 					"text" : "coll modes 1"
@@ -240,179 +265,6 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 42,
-						"data" : [ 							{
-								"key" : 1,
-								"value" : [ "Territoire innomé441.aiff" ]
-							}
-, 							{
-								"key" : 2,
-								"value" : [ "SMD5MExtrait1CourtDescente.aif" ]
-							}
-, 							{
-								"key" : 3,
-								"value" : [ "SMD6MExtrait2Descente.aif" ]
-							}
-, 							{
-								"key" : 4,
-								"value" : [ "SMD11MMontée.aif" ]
-							}
-, 							{
-								"key" : 6,
-								"value" : [ "SCVdes voix inquiétantes.aif" ]
-							}
-, 							{
-								"key" : 7,
-								"value" : [ "SMD19MMontéeEtedndue.aif" ]
-							}
-, 							{
-								"key" : 8,
-								"value" : [ "SMD20MMontéeDescenteGrave.aif" ]
-							}
-, 							{
-								"key" : 9,
-								"value" : [ "SMD13MDescente.aif" ]
-							}
-, 							{
-								"key" : 10,
-								"value" : [ "SMD27PDescente.aif" ]
-							}
-, 							{
-								"key" : 5,
-								"value" : [ "SCVdes voix.aif" ]
-							}
-, 							{
-								"key" : 11,
-								"value" : [ "SMD18Montée.aif" ]
-							}
-, 							{
-								"key" : 12,
-								"value" : [ "SMD22PDescente.aif" ]
-							}
-, 							{
-								"key" : 13,
-								"value" : [ "SMD13MDescente.aif" ]
-							}
-, 							{
-								"key" : 14,
-								"value" : [ "SMD14MLégèreMontée.aif" ]
-							}
-, 							{
-								"key" : 15,
-								"value" : [ "SMD15Unimpact.aif" ]
-							}
-, 							{
-								"key" : 21,
-								"value" : [ "SMD7MExtrait3Straight.aif" ]
-							}
-, 							{
-								"key" : 19,
-								"value" : [ "SMD3DescendDepuistrèsaigu.aif" ]
-							}
-, 							{
-								"key" : 20,
-								"value" : [ "SMD5MExtrait1CourtDescente.aif" ]
-							}
-, 							{
-								"key" : 16,
-								"value" : [ "SMD16Montée.aif" ]
-							}
-, 							{
-								"key" : 17,
-								"value" : [ "SMD17MontéeDescenteMontée.aif" ]
-							}
-, 							{
-								"key" : 18,
-								"value" : [ "SMD2MMonte.aif" ]
-							}
-, 							{
-								"key" : 22,
-								"value" : [ "SMD8MStraight.aif" ]
-							}
-, 							{
-								"key" : 23,
-								"value" : [ "SMD9MCourteDescente.aif" ]
-							}
-, 							{
-								"key" : 24,
-								"value" : [ "SMD6MExtrait2Descente.aif" ]
-							}
-, 							{
-								"key" : 25,
-								"value" : [ "SMD12MDescenteLongueRésonance.aif" ]
-							}
-, 							{
-								"key" : 26,
-								"value" : [ "SMD20MMontéeDescenteGrave.aif" ]
-							}
-, 							{
-								"key" : 27,
-								"value" : [ "SMD21PDesente.aif" ]
-							}
-, 							{
-								"key" : 28,
-								"value" : [ "SMD25PDescenteetAcc.aif" ]
-							}
-, 							{
-								"key" : 29,
-								"value" : [ "STE-024.wav" ]
-							}
-, 							{
-								"key" : 30,
-								"value" : [ "SCVquelques instants de calme relatif.aif" ]
-							}
-, 							{
-								"key" : 31,
-								"value" : [ "SCVmontéepuisdescente.aif" ]
-							}
-, 							{
-								"key" : 32,
-								"value" : [ "SCVmarteau piqueur.aif" ]
-							}
-, 							{
-								"key" : 33,
-								"value" : [ "SCVimpactpuisdescente.aif" ]
-							}
-, 							{
-								"key" : 34,
-								"value" : [ "SCVdes cloches inquiétantes.aif" ]
-							}
-, 							{
-								"key" : 35,
-								"value" : [ "accordsgranuleux1.aiff" ]
-							}
-, 							{
-								"key" : 36,
-								"value" : [ "accordsgranuleux2.aiff" ]
-							}
-, 							{
-								"key" : 37,
-								"value" : [ "Rec-13.06.11-10h35m27sralentiuncinquiemegranuleux.aif" ]
-							}
-, 							{
-								"key" : 39,
-								"value" : [ "Rec-13.06.17-03h08m34sAngoulemefoulespeedpuisslow.aif" ]
-							}
-, 							{
-								"key" : 38,
-								"value" : [ "Rec-13.06.17-03h20m18sAugoulemefoulespeed.aif" ]
-							}
-, 							{
-								"key" : 40,
-								"value" : [ "ventportecnrjouéAdécouperoupas.aif" ]
-							}
-, 							{
-								"key" : 41,
-								"value" : [ "Rec-13.06.17-03h09m55sPierreukuvlsloooowspid.aif" ]
-							}
-, 							{
-								"key" : 42,
-								"value" : [ "Rec-13.05.22-silence4mn.aif" ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-92",
@@ -422,7 +274,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1028.0, 205.0, 101.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
 					"text" : "coll currentfiles 1"
@@ -529,23 +381,6 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 3,
-						"data" : [ 							{
-								"key" : 1,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 2,
-								"value" : [ 1 ]
-							}
-, 							{
-								"key" : 3,
-								"value" : [ 1 ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
@@ -555,7 +390,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 928.0, 537.0, 88.500061, 20.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
 					"text" : "coll loops 1"
@@ -683,7 +518,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1860,179 +1695,6 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 42,
-						"data" : [ 							{
-								"key" : 1,
-								"value" : [ "Territoire innomé441.aiff" ]
-							}
-, 							{
-								"key" : 2,
-								"value" : [ "SMD5MExtrait1CourtDescente.aif" ]
-							}
-, 							{
-								"key" : 3,
-								"value" : [ "SMD6MExtrait2Descente.aif" ]
-							}
-, 							{
-								"key" : 4,
-								"value" : [ "SMD11MMontée.aif" ]
-							}
-, 							{
-								"key" : 6,
-								"value" : [ "SCVdes voix inquiétantes.aif" ]
-							}
-, 							{
-								"key" : 7,
-								"value" : [ "SMD19MMontéeEtedndue.aif" ]
-							}
-, 							{
-								"key" : 8,
-								"value" : [ "SMD20MMontéeDescenteGrave.aif" ]
-							}
-, 							{
-								"key" : 9,
-								"value" : [ "SMD13MDescente.aif" ]
-							}
-, 							{
-								"key" : 10,
-								"value" : [ "SMD27PDescente.aif" ]
-							}
-, 							{
-								"key" : 5,
-								"value" : [ "SCVdes voix.aif" ]
-							}
-, 							{
-								"key" : 11,
-								"value" : [ "SMD18Montée.aif" ]
-							}
-, 							{
-								"key" : 12,
-								"value" : [ "SMD22PDescente.aif" ]
-							}
-, 							{
-								"key" : 13,
-								"value" : [ "SMD13MDescente.aif" ]
-							}
-, 							{
-								"key" : 14,
-								"value" : [ "SMD14MLégèreMontée.aif" ]
-							}
-, 							{
-								"key" : 15,
-								"value" : [ "SMD15Unimpact.aif" ]
-							}
-, 							{
-								"key" : 21,
-								"value" : [ "SMD7MExtrait3Straight.aif" ]
-							}
-, 							{
-								"key" : 19,
-								"value" : [ "SMD3DescendDepuistrèsaigu.aif" ]
-							}
-, 							{
-								"key" : 20,
-								"value" : [ "SMD5MExtrait1CourtDescente.aif" ]
-							}
-, 							{
-								"key" : 16,
-								"value" : [ "SMD16Montée.aif" ]
-							}
-, 							{
-								"key" : 17,
-								"value" : [ "SMD17MontéeDescenteMontée.aif" ]
-							}
-, 							{
-								"key" : 18,
-								"value" : [ "SMD2MMonte.aif" ]
-							}
-, 							{
-								"key" : 22,
-								"value" : [ "SMD8MStraight.aif" ]
-							}
-, 							{
-								"key" : 23,
-								"value" : [ "SMD9MCourteDescente.aif" ]
-							}
-, 							{
-								"key" : 24,
-								"value" : [ "SMD6MExtrait2Descente.aif" ]
-							}
-, 							{
-								"key" : 25,
-								"value" : [ "SMD12MDescenteLongueRésonance.aif" ]
-							}
-, 							{
-								"key" : 26,
-								"value" : [ "SMD20MMontéeDescenteGrave.aif" ]
-							}
-, 							{
-								"key" : 27,
-								"value" : [ "SMD21PDesente.aif" ]
-							}
-, 							{
-								"key" : 28,
-								"value" : [ "SMD25PDescenteetAcc.aif" ]
-							}
-, 							{
-								"key" : 29,
-								"value" : [ "STE-024.wav" ]
-							}
-, 							{
-								"key" : 30,
-								"value" : [ "SCVquelques instants de calme relatif.aif" ]
-							}
-, 							{
-								"key" : 31,
-								"value" : [ "SCVmontéepuisdescente.aif" ]
-							}
-, 							{
-								"key" : 32,
-								"value" : [ "SCVmarteau piqueur.aif" ]
-							}
-, 							{
-								"key" : 33,
-								"value" : [ "SCVimpactpuisdescente.aif" ]
-							}
-, 							{
-								"key" : 34,
-								"value" : [ "SCVdes cloches inquiétantes.aif" ]
-							}
-, 							{
-								"key" : 35,
-								"value" : [ "accordsgranuleux1.aiff" ]
-							}
-, 							{
-								"key" : 36,
-								"value" : [ "accordsgranuleux2.aiff" ]
-							}
-, 							{
-								"key" : 37,
-								"value" : [ "Rec-13.06.11-10h35m27sralentiuncinquiemegranuleux.aif" ]
-							}
-, 							{
-								"key" : 39,
-								"value" : [ "Rec-13.06.17-03h08m34sAngoulemefoulespeedpuisslow.aif" ]
-							}
-, 							{
-								"key" : 38,
-								"value" : [ "Rec-13.06.17-03h20m18sAugoulemefoulespeed.aif" ]
-							}
-, 							{
-								"key" : 40,
-								"value" : [ "ventportecnrjouéAdécouperoupas.aif" ]
-							}
-, 							{
-								"key" : 41,
-								"value" : [ "Rec-13.06.17-03h09m55sPierreukuvlsloooowspid.aif" ]
-							}
-, 							{
-								"key" : 42,
-								"value" : [ "Rec-13.05.22-silence4mn.aif" ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
@@ -2040,9 +1702,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 890.0, 300.0, 101.0, 20.0 ],
+					"patching_rect" : [ 889.0, 302.0, 101.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
 					"text" : "coll currentfiles 1"
@@ -2288,8 +1950,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 601.0, 376.0, 59.0, 52.0 ],
-					"text" : "clear, append \"Choose new file...\", append \"Choose folder...\", append -"
+					"patching_rect" : [ 601.0, 376.0, 77.5, 52.0 ],
+					"text" : "clear, append \"Choose new file...\", append \"Choose folder...\", append \"Re-import from main\", append -"
 				}
 
 			}
@@ -2477,7 +2139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 544.0, 144.0, 71.0, 33.0 ],
+					"patching_rect" : [ 544.0, 134.0, 71.0, 33.0 ],
 					"text" : "opendialog folder"
 				}
 
@@ -2493,19 +2155,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 437.0, 210.0, 98.0, 20.0 ],
 					"text" : "prepend append"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 467.0, 134.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 429.5, 93.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -2559,7 +2208,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 512.0, 123.0, 33.0, 42.0 ],
+					"patching_rect" : [ 512.0, 129.5, 33.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 488.0, 47.5, 69.0, 72.0 ]
 				}
@@ -2642,7 +2291,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
-					"items" : [ "Choose", "new", "file...", ",", "Choose", "folder...", ",", "Re-import", "from", "main", ",", "-", ",", "enfancegoutegoutelette.aif", ",", "enfancejesuislevent.aif", ",", "gougoutelette.aif", ",", "matelas1Impactparfaitpresque.aif", ",", "matelas2sature.aif", ",", "matelas3-1.aif", ",", "matelas3-2.aif", ",", "matelas3-3.aif", ",", "matelas3-4.aif", ",", "matelas3-5.aif", ",", "matelas3-6.aif", ",", "matelas3.aif", ",", "medocs", "aagaard", "propolis", "propolentum-1.aif", ",", "medocs", "aagaard", "propolis", "propolentum-2.aif", ",", "medocs", "aagaard", "propolis", "propolentum-3.aif", ",", "medocs", "aagaard", "propolis", "propolentum-4.aif", ",", "medocs", "aagaard", "propolis", "propolentum-5.aif", ",", "medocs", "aagaard", "propolis", "propolentum-6.aif", ",", "medocs", "aagaard", "propolis", "propolentum.aif", ",", "medocspropre.aif", ",", "medocspropres2.aif", ",", "medocsunpeumoinspropre-1.aif", ",", "medocsunpeumoinspropre.aif", ",", "PeakSaveTEMP.860114.aif", ",", "SCVcalme", "type", "bruit", "d", "eradio", "modulé.aif", ",", "SCVdes", "cloches", "encore.aif", ",", "SCVdes", "cloches", "inquiétantes.aif", ",", "SCVdes", "voix", "inquiétantes.aif", ",", "SCVdes", "voix.aif", ",", "SCVimpactpuisdescente.aif", ",", "SCVmarteau", "piqueur.aif", ",", "SCVmontéepuisdescente.aif", ",", "SCVquelques", "instants", "de", "calme", "relatif.aif", ",", "SMD10MMélodieLongueGrave.aif", ",", "SMD11MMontée.aif", ",", "SMD12MDescenteLongueRésonance.aif", ",", "SMD13MDescente.aif", ",", "SMD14MLégèreMontée.aif", ",", "SMD15Unimpact.aif", ",", "SMD16Montée.aif", ",", "SMD17MontéeDescenteMontée.aif", ",", "SMD18Montée.aif", ",", "SMD19MMontéeEtedndue.aif", ",", "SMD20MMontéeDescenteGrave.aif", ",", "SMD21PDesente.aif", ",", "SMD22PDescente.aif", ",", "SMD24PDescenteegtAccléération.aif", ",", "SMD25PDescenteetAcc.aif", ",", "SMD26PDescente.aif", ",", "SMD27PDescente.aif", ",", "SMD28Impact.aif", ",", "SMD2MMonte.aif", ",", "SMD3DescendDepuistrèsaigu.aif", ",", "SMD5MExtrait1CourtDescente.aif", ",", "SMD6MExtrait2Descente.aif", ",", "SMD7MExtrait3Straight.aif", ",", "SMD8MStraight.aif", ",", "SMD9MCourteDescente.aif", ",", "SMDAiguDescendFortbruitdefondavant.aif", ",", "SMDescentePlusptitemontéeTrèsgrave.aif", ",", "SMDLongueDescentePrécédéeparunimpact.aif", ",", "SMDSuperimpactdegamelan", "vite", "ruiné", "par", "plein", "de", "sons.aif", ",", "SMDunimpact.aif", ",", "ventportecnrjouéAdécouperoupas.aif", ",", "zzzstrésonnanceFrotfrot.aif", ",", "Macintosh", "HD:/Applications/Max6/Rec-13.05.22-16h53m10s.aif", ",", "Macintosh", "HD:/Users/vichug/Music/alenterrementdunefeuillemorte.aiff", ",", "0murcri.wav", ",", "0vieuxensbar.wav", ",", "1murcri.wav", ",", "2murcri.wav", ",", "3murcri.wav", ",", "40reveelpoele.wav", ",", "44crimur.wav", ",", "45crimur.wav", ",", "4murcri.wav", ",", "5poememman.wav", ",", "STE-003Icemusic.wav", ",", "STE-004Icemusic.wav", ",", "STE-005Neige.wav", ",", "STE-006Silence.wav", ",", "STE-007Neige.wav", ",", "STE-008Traineauch.wav", ",", "STE-009Icemusic.wav", ",", "STE-010Icemusic.wav", ",", "STE-011Icemusic.wav", ",", "STE-012Silence.wav", ",", "STE-013Icemusic.wav", ",", "STE-014Icemusic.wav", ",", "STE-015Angouvluku.wav", ",", "STE-016.wav", ",", "STE-017.wav", ",", "STE-018.wav", ",", "STE-019.wav", ",", "STE-020.wav", ",", "STE-021.wav", ",", "STE-022.wav", ",", "STE-023.wav", ",", "STE-024.wav", ",", "STE-025.wav", ",", "STE-026.wav", ",", "STE-027.wav", ",", "STE-028.wav", ",", "STE-029.wav", ",", "STE-030.wav", ",", "STE-031.wav", ",", "STE-032.wav", ",", 1, "1-Audio-1.aif", ",", 1, "1-Audio-2.aif", ",", 1, "1-Audio-3.aif", ",", 1, "1-Audio.aif", ",", "2cling.aif", ",", "2clustergrave.aif", ",", "2gratando1-out.aif", ",", "2gratando1.aif", ",", "2gratando11.aif", ",", "2gratando12.aif", ",", "2gratando13.aif", ",", "2gratando14.aif", ",", "2gratando15.aif", ",", "2gratando16.aif", ",", "2gratando17.aif", ",", "2gratando18.aif", ",", "2gratando19.aif", ",", "2gratando2.aif", ",", "2gratando20.aif", ",", "2gratando21raté.aif", ",", "2gratando22.aif", ",", "2gratando23raté.aif", ",", "2gratando24attendsatenten.aif", ",", "2gratando25.aif", ",", "2gratando26.aif", ",", "2gratando27.aif", ",", "2gratando28.aif", ",", "2gratando3.aif", ",", "2gratando4.aif", ",", "2gratando6.aif", ",", "2gratando7.aif", ",", "2gratando8dbleflippantaigu.aif", ",", "2gratando9dbleflippantaigu.aif", ",", "2gratandoaiug5.aif", ",", "2gratandolong1.aif", ",", "2gratandolong2.aif", ",", "2gratandorev1.aif", ",", "2gratandorésonant1.aif", ",", "2gratandorésonant2.aif", ",", "2gratandorésonant3.aif", ",", "2gratandorésonant4gachéparparole.aif", ",", "2gratandorésonant5.aif", ",", "2gratandorésonant6.aif", ",", "2gratandorésonant7dequoifaireuninstrumentflippant.aif", ",", "2gratandoVraisonant1raté.aif", ",", "2gratanduo1.aif", ",", "2gratanduo2.aif", ",", "2gratanduo3.aif", ",", "2gratanduo4.aif", ",", "2grtatanduo5.aif", ",", "2grtatanduo6.aif", ",", "2grtatanduo7.aif", ",", "2grtatanduo8longduobouya.aif", ",", "2percu5.aif", ",", "2percu6.aif", ",", "2percu7.aif", ",", "2percu8.aif", ",", "2percu9.aif", ",", "2percuréson1.aif", ",", "2percuréson2.aif", ",", "2percuréson2fadout.aif", ",", "2percuréson3.aif", ",", "2percuréson4.aif", ",", "2percuréson5x2.aif", ",", "2percus1.aif", ",", "2percus2.aif", ",", "2percus3.aif", ",", "2percus4.aif", ",", "2PLOC.aif", ",", "2plonkplonk.aif", ",", "2pluie10percus.aif", ",", "2pluie11.aif", ",", "2pluie12.aif", ",", "2pluie13percu.aif", ",", "2pluie14percus.aif", ",", "2pluie2.aif", ",", "2pluie3.aif", ",", "2pluie4percu.aif", ",", "2pluie5.aif", ",", "2pluie7.aif", ",", "2pluie8mat.aif", ",", "2pluie9.aif", ",", "2pluieaigue.aif", ",", "2pluieaigueattentenregarde.aif", ",", "2Puieaigue2ouaimaiscacestconnu.aif", ",", "2spiccatos.aif", ",", "2spiccatosrésonnantunpeu.aif", ",", "2spirale1x3.aif", ",", "2spirale2sature.aif", ",", "2spirale3satureencore.aif", ",", "2spirale4saturerésonnancecomplète.aif", ",", "3coupspourrien.aif", ",", "3impacts.aif", ",", "bordel-1.aif", ",", "bordel.aif", ",", "bordel4-1.aif", ",", "bordel4.aif", ",", "bordelmelodie.aif", ",", "boredl2.aif", ",", "cascade.aif", ",", "cascade3.aif", ",", "courtsansrésonnance.aif", ",", "dernièrespirale.aif", ",", "impactaigu-1.aif", ",", "impactaigu.aif", ",", "impactaigu2.aif", ",", "impactaigu3.aif", ",", "la_stbadiblinmg.aif", ",", "la_stbordelsurtimbale1.aif", ",", "la_stbordelsurtimbale2.aif", ",", "la_stbordelsurtimbale4.aif", ",", "la_stresonnancetorti.aif", ",", "la_strespuisroulementcymbale.aif", ",", "la_stspir2.aif", ",", "la_stspir3.aif", ",", "la_stspir4.aif", ",", "la_stspir5.aif", ",", "la_stspir6.aif", ",", "la_sttorti2.aif", ",", "la_sttorti3.aif", ",", "léger1.aif", ",", "léger2.aif", ",", "léger2etdemii.aif", ",", "léger3.aif", ",", "léger4.aif", ",", "léger4etdemibordel.aif", ",", "léger5spirale18quar.aif", ",", "léger6plusdegravedatq.aif", ",", "légerbordel1.aif", ",", "légerbordel2.aif", ",", "meldodie.aif", ",", "percupianosupeeerlooonguerésonnance.aif", ",", "série", "d'impacts..aif", ",", "sp22résonOK.aif", ",", "sp23pasderez.aif", ",", "spirale10.aif", ",", "spirale12.aif", ",", "spirale14.aif", ",", "spirale15.aif", ",", "spirale17.aif", ",", "spirale186faiblecourtgrave.aif", ",", "spirale187bis.aif", ",", "spirale187tergachée.aif", ",", "spirale18bis.aif", ",", "spirale18CHANGEMENTcetaitmeiueuxavant.aif", ",", "spirale18karungroscoup.aif", ",", "spirale18quintunpeumoucourt.aif", ",", "spirale18teraigu.aif", ",", "spirale7plus", "résonnance.aif", ",", "spirale8-1.aif", ",", "spirale8.aif", ",", "spirale9pasmal.aif", ",", "spiralebordel-1.aif", ",", "spiralebordel.aif", ",", "spiralepasmalmaisrésonnancegachée.aif", ",", "spiraletourn4HOHOHOCESTDENATURASONORUMc_nnard....aif", ",", "spiraletourn5exhalaison.aif", ",", "spiraletourn6petit.aif", ",", "st16impacts.aif", ",", "ST2e", "essai.aif", ",", "st2impacts-1.aif", ",", "st2impacts.aif", ",", "st2impactsdonttortillon2etdemifaible.aif", ",", "ST3imp2.aif", ",", "ST3imp3.aif", ",", "ST3imp4.aif", ",", "ST3imp5.aif", ",", "st3impacts.aif", ",", "ST3impactstortillon.aif", ",", "St4à5impacts.aif", ",", "st4impactsmatshorssujet.aif", ",", "st6impacts.aif", ",", "stbordel.aif", ",", "stbordelfinouaeuh.aif", ",", "stbordelmélodie.aif", ",", "stbrisdeverrefragilepetit.aif", ",", "stbruitderemuagefond.aif", ",", "stçuilàilfaitmallàendiremerde.aif", ",", "STdla", "merde", "de", "tortillon.aif", ",", "stdriling.aif", ",", "stdzing3faible.aif", ",", "stdzing4faible.aif", ",", "stdzing5mediumcentresourdattaquequiclaquefaitmal.aif", ",", "stdzing6pluséquilibréattaquefaitmal.aif", ",", "stdzing7aiguattaquedouleur.aif", ",", "stdzingaigu.aif", ",", "STdzingcourtsansrez.aif", ",", "stdzingdzingdzing.aif", ",", "stdzingdzingdzing2.aif", ",", "STfaibleindéterminé.aif", ",", "stjolierésonnancepuisjoliplop.aif", ",", "stjolierésonnancesansplop.aif", ",", "stjolierésonnancesansplopmieux.aif", ",", "stjoliplop.aif", ",", "stlongueséquencd'impronawak2.aif", ",", "stlongueséquenced'impronawak.aif", ",", "stminidzing.aif", ",", "stptitepluiemate.aif", ",", "stRoulement.aif", ",", "STrtlingtrlangtrlongfaible.aif", ",", "stSpirale10modulabizarreimpactclic.aif", ",", "stSpirale11longimpactlégersourdaigu.aif", ",", "stSpirale12impactbeaulonnnguerez.aif", ",", "stSpirale13impactsx3.aif", ",", "stSpirale14impactgenreclictrèsfaiibletrèsdoux.aif", ",", "stSpirale15impacttrèsfaible.aif", ",", "stSpirale16impacttrèsfaible.aif", ",", "stSpirale17impacttrèsfaiblepluscourt.aif", ",", "stSpirale18impactsx3.aif", ",", "stSpirale3.aif", ",", "stSpirale4rapidesmod.aif", ",", "stSpirale5lent_hahahmerde_hahaha.aif", ",", "stSpirale6trrrèslent.aif", ",", "stSpirale7Impactbruiteuxdansl'aiguunpeudouloureux.aif", ",", "stSpirale8impactclair.aif", ",", "stSpirale9impactmoinsfort.aif", ",", "stSpiraleBeauMaisparlepas1.aif", ",", "stSpiraleBeauMaisparlepas2.aif", ",", "STtoctouktaowww.aif", ",", "sttorti9plusgravelongfaiblebruitalattaque.aif", ",", "sttortillon0.aif", ",", "sttortillon1faiblemaisrésonnanceaubout.aif", ",", "sttortillon2faible.aif", ",", "sttortillon3gravecrete.aif", ",", "sttortillon4gravecrete.aif", ",", "sttortillon6faibleréson.aif", ",", "sttrèslégerbordelsansgrandintérêt.aif", ",", "ventportecnrjouéNormalisé.aif", ",", 5, "2-AudioClochesetvoix.aif", ",", 8, "2-Audio-1Cestjoli.aif", ",", "33oiseauxrevel.wav", ",", "amplijbl.wav", ",", "amplijbl2.wav", ",", "arcouestportebass3.wav", ",", "briquetattaque.wav", ",", "bullition.wav", ",", "bullition2.wav", ",", "bullition3.wav", ",", "bullition4plichpates.wav", ",", "chaisesmetal.wav", ",", "gdmanterrosoir.wav", ",", "lamelletalglingtoug.wav", ",", "leventdanslecnrr2.wav", ",", "pierrecigales3.wav", ",", "poele4.wav", ",", "STE-000verresbruxelles.wav", ",", "STE-001.wav", ",", "STE-012oisitalix.wav", ",", "STE-019ztdoiiing.wav", ",", "Territoire", "innomé.aiff", ",", "Territoire", "innomé441.aiff", ",", "trucàcocktailtournant.wav", ",", "verretablevibre.wav", ",", "voixforcage.wav", ",", "voixforcage5.wav", ",", ".wav", ",", "accordsgranuleux1.aiff", ",", "accordsgranuleux2.aiff", ",", "Rec-12.06.05-17h20m42sbruitdefondcourt.aif", ",", "Rec-12.06.05-17h21m01s-grattementsprobablementpropolis.aif", ",", "Rec-13.05.22-17h00m26ssilence2s.aif", ",", "Rec-13.05.22-17h24m08spseudonoiseviolon.aif", ",", "Rec-13.05.22-silence4mn.aif", ",", "Rec-13.05.27-17h23m41spseudoviolon.aif", ",", "Rec-13.06.01-03h53m32saccordsgranuleux.aif", ",", "Rec-13.06.11-10h24m52sfxgranuleux.aif", ",", "Rec-13.06.11-10h30m00sfxgranuleux2.aif", ",", "Rec-13.06.11-10h34m29saccordgranuleuxtenu.aif", ",", "Rec-13.06.11-10h35m27sralentiuncinquiemegranuleux.aif", ",", "Rec-13.06.17-03h08m34sAngoulemefoulespeedpuisslow.aif", ",", "Rec-13.06.17-03h09m55sPierreukuvlsloooowspid.aif", ",", "Rec-13.06.17-03h20m18sAugoulemefoulespeed.aif", ",", "RIRES.aiff" ],
+					"items" : [ "Choose", "new", "file...", ",", "Choose", "folder...", ",", "Re-import", "from", "main", ",", "-" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2767,6 +2416,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-119", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2821,6 +2479,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-216", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2848,10 +2515,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-216", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-206", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -2911,6 +2596,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2930,6 +2624,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
@@ -3481,41 +3184,6 @@
 				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soundscoll.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "filepaths.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "currentfiles.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "loops.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "trigmodes.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut10",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

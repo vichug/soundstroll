@@ -41,7 +41,7 @@ Si rien ne marche, un redémarrage de Max peut aider... )
 --COMMANDES--
 
 
-&		pour activer/désactiver les commandes par clavier
+tab		pour activer/désactiver les commandes par clavier
 
 
 ESCAPE	pour passer de plein écran à petit écran

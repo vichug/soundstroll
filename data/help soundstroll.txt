@@ -40,7 +40,7 @@ If nothing works, a Max reboot can help...)
 --COMMANDS--
 
 
-&		to enable/disable following keyboard commands
+tab		to enable/disable following keyboard commands
 
 
 ESCAPE	toggle fullscreen on/off
