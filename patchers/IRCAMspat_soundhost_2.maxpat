@@ -32,6 +32,66 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"id" : "obj-99",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 630.500061, 591.080017, 89.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 4.435303, 5.0, 54.0, 33.0 ],
+					"text" : "blinking on/off"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-94",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 642.000061, 653.5, 45.0, 31.0 ],
+					"text" : "target 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 630.500061, 611.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.435303, 38.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"patching_rect" : [ 628.500061, 633.0, 32.5, 20.0 ],
+					"text" : "t i b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-97",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -245,7 +305,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 134.5, 660.0, 232.0 ],
+									"patching_rect" : [ 15.0, 134.5, 664.0, 232.0 ],
 									"text" : "source 1 pres 30.566, source 1 pres 29.434, source 1 warmth 43., source 1 bril 41., source 1 prer 89., source 1 revp 29., source 1 env 28., source 1 env 27., source 1 env 26., source 1 env 25., room 1 reverberance 72., room 1 reverberance 71., room 1 heaviness 20., room 1 liveness 33., room 1 liveness 32., room 1 early start 25.56, room 1 early end 46.92, room 1 early distr 0.45, room 1 cluster start 42.23, room 1 cluster end 114.73, room 1 cluster distr 0.48, room 1 reverb start 103.26, room 1 reverb modaldensity 0.73, room 1 early start 25.29, room 1 early end 45.11, room 1 early distr 0.45, room 1 cluster start 40.6, room 1 cluster end 107.99, room 1 cluster distr 0.48, room 1 reverb start 97.19, room 1 reverb modaldensity 0.68, room 1 early start 24.58, room 1 early end 39.17, room 1 early distr 0.46, room 1 early shape 0.52, room 1 cluster start 43.31, room 1 cluster end 113.83, room 1 cluster distr 0.5, room 1 reverb start 90.44, room 1 reverb modaldensity 0.67, room 1 active 0, room 1 active 1, room 1 infinite 1, room 1 infinite 0, room 1 air 0, room 1 air 1, room 1 airfreq 9811., room 1 reverb fl 342., room 1 reverb fh 8141., room 1 reverb fh 8406., source 1 pres 90., source 1 warmth 30., source 1 bril 30., source 1 prer 48., source 1 revp 34., source 1 env 24., source 1 aperture 80., source 1 early width 30., source 1 drop 6., source 1 dropmode log2, source 1 radius 1., room 1 reverberance 65., room 1 heaviness 25., room 1 liveness 35., room 1 early end 39.71, room 1 cluster start 42.47, room 1 cluster end 105.64, room 1 reverb start 95.37, room 1 early distr 0.5, room 1 early shape 0.5, room 1 cluster distr 0.5, room 1 reverb modaldensity 0.86, room 1 airfreq 10000., room 1 reverb fl 250., room 1 reverb fh 8000., room 1 early start 22.22, channel 1 cascade 1 freq 1000., channel 1 cascade 1 Q 1., channel 1 cascade 1 gain 0., channel 1 cascade 1 type Null, channel 2 cascade 1 freq 1000., channel 2 cascade 1 Q 1., channel 2 cascade 1 gain 0., channel 2 cascade 1 type Null,"
 								}
 
@@ -1285,7 +1345,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 703.5, 495.0, 95.0, 47.0 ],
+					"patching_rect" : [ 563.833313, 515.5, 95.0, 47.0 ],
 					"text" : "5e entree : anything to spat.spat~"
 				}
 
@@ -1437,7 +1497,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 623.5, 376.0, 129.0, 33.0 ],
+					"patching_rect" : [ 516.0, 363.0, 129.0, 33.0 ],
 					"text" : "4e entree : mode (avec ou sans pause)"
 				}
 
@@ -2761,6 +2821,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2995,6 +3073,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3193,6 +3280,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3228,6 +3324,20 @@
 				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "loops.txt",
+				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
+				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "trigmodes.txt",
+				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
+				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
