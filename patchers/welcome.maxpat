@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 465.0, 71.0, 697.0, 524.0 ],
+		"rect" : [ 475.0, 125.0, 697.0, 524.0 ],
 		"bgcolor" : [ 0.0, 0.169922, 0.1875, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -167,7 +167,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 466.0, 72.0, 696.0, 498.0 ],
+						"rect" : [ 476.0, 126.0, 696.0, 498.0 ],
 						"bgcolor" : [ 0.0, 0.169922, 0.1875, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -1174,8 +1174,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 27.0, 2044.0, 671.0, 342.0 ],
-									"text" : "Then, make sure that the \"start graphics\" toggle in shapes.maxpat patcher is checked. Then, there are some things to activate, for which there are some shortcuts to know :\n* The tab (or 'tabulation') key will activate/desactivate most of all other shortcuts. This is desactivated by default, so you should toggle it (either wiht the tab key, or by manually clicking the toggle in shapes.maxpat)\n* Once shortcuts are activated, you may activate navigation commands, with the spacebar (or by clicking toggle)\n* Those shortcuts are displayed inside the GL scene as a floating 2D text. To make that help show or disappear, use the h key.\n* You may want to enter fullscreen mode ; to toggle between fullscreen and window, press the usual escape key.\n\nThen  you can begin to move around and create and place sound sources...",
+									"patching_rect" : [ 27.0, 2044.0, 651.0, 342.0 ],
+									"text" : "Then, make sure that the \"start graphics\" toggle in shapes.maxpat patcher is checked (it should be by default at startup). Then, there are some things to activate, for which there are some shortcuts to know :\n* The tab (or 'tabulation') key will activate/desactivate most of all other shortcuts. This is desactivated by default, so you should toggle it (either wiht the tab key, or by manually clicking the toggle in shapes.maxpat)\n* Once shortcuts are activated, you may activate navigation commands, with the spacebar (or by clicking toggle)\n* Those shortcuts are displayed inside the GL scene as a floating 2D text. To make that help show or disappear, use the h key.\n* You may want to enter fullscreen mode ; to toggle between fullscreen and window, press the usual escape key.\n\nThen  you can begin to move around and create and place sound sources...",
 									"textcolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ]
 								}
 
@@ -2372,8 +2372,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -274.0, 617.0, 242.0, 17.0 ],
-					"text" : "window flags float, window notitle, window exec"
+					"patching_rect" : [ -274.0, 617.0, 166.0, 17.0 ],
+					"text" : "window flags float, window exec"
 				}
 
 			}
@@ -2755,43 +2755,43 @@
 			}
 , 			{
 				"name" : "Capture d’écran 2014-12-01 à 16.26.03.png",
-				"bootpath" : "/Users/vichug/Desktop",
-				"patcherrelativepath" : "../../../../Desktop",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Capture d’écran 2014-12-01 à 17.33.28.png",
-				"bootpath" : "/Users/vichug/Desktop",
-				"patcherrelativepath" : "../../../../Desktop",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Capture d’écran 2014-12-01 à 17.36.55.png",
-				"bootpath" : "/Users/vichug/Desktop",
-				"patcherrelativepath" : "../../../../Desktop",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Capture d’écran 2014-12-01 à 18.10.53.png",
-				"bootpath" : "/Users/vichug/Desktop",
-				"patcherrelativepath" : "../../../../Desktop",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Capture d’écran 2014-12-01 à 18.27.20.png",
-				"bootpath" : "/Users/vichug/Desktop",
-				"patcherrelativepath" : "../../../../Desktop",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Capture d’écran 2014-12-01 à 18.58.16.png",
-				"bootpath" : "/Users/vichug/Desktop",
-				"patcherrelativepath" : "../../../../Desktop",
+				"bootpath" : "/Users/vichug/Documents/Max 6 Projects/SoundStroll2_rls/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

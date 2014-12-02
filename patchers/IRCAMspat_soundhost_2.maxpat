@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 788.0, 592.0, 278.0, 249.0 ],
+		"rect" : [ 1071.0, 573.0, 278.0, 249.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,13 +31,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-68",
+					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 834.333313, 461.0, 60.0, 20.0 ],
-					"text" : "loadbang"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 820.833313, 466.0, 32.5, 20.0 ],
+					"text" : "t l b"
 				}
 
 			}
@@ -259,6 +259,36 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
+									"id" : "obj-3",
+									"linecount" : 19,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 618.0, 138.0, 638.0, 238.0 ],
+									"text" : "aperture 80., aperturecolor 1. 1. 1. 0.6, areasmonitoring 0, automaticspeakerstimealignment 0, axis 0. 0. 0. 0. 177. 5657., backgroundimage none, backgroundimageangle 0., backgroundimageopacity 1., backgroundimagequality medium, backgroundimagescale 1., backgroundimagexoffset 0., backgroundimageyoffset 0., bril 30., bypass 0, circularconstraint 0, cluster_distr 0.4, cluster_end 15.05, cluster_start 8.11, delays 0. 0., doppler 0, drop 6., dropmode log2, early_distr 0.4, early_end 8.76, early_shape 0.5, early_start 7.11, early_width 30., env 24., format ade, globalproportion 0.1, gridlines 3, gridmode circular, gridspacing 1., heaviness 25., infinite 0, listenereditable 0, listenerpitch 0., listenerposition 0. 0. 0., listenerproportion 0.15, listenerroll 0., listeneryaw 0., liveness 23., modaldensity 0.2, multipleoutlets 0, mute 0, name \"1\", numangulardivisions 8, numareas 0, numcascades 1, numinternals 8, numreverbs 1, numsources 1, numspeakers 2, omni 0. 1.7 0. -3.8 177. 5657., orientationmode yawconstraint, outputfiltersQ 1. 1., outputfiltersfreq 1000. 1000., outputfiltersgain 0. 0., outputfilterstype Null Null, pan_rev 0., parameter_enable 0, pitch 0., prer 48., pres 90., radius 1., reverb_start 13.55, reverberance 5., reverbfreqhigh 8000., reverbfreqlow 250., reverbid 1, revp 34., roomactive 1, roomairabsorption 1, roomairrolloff 10000., roominputgain 0., roomoutputgain 0., shoeboxcorners 0. 0. 0. 1. -1. 0., showangulardivisions 1, showaperture 1, showareas 0, showbackgroundimage 1, showcriteria 0, showgains 0, showheadphones 0, showimagesources 0, showlegend 1, showlistener 1, showradius 0, showshoebox 0, showsources 1, showsourceslabel 1, showspeakers 1, showspeakershull 0, showspeakerslabel 1, showspeakersprojection 0, showspeakersradius 0, showspeakerstriangulation 0, showviewer 1, sourceairabsorption 1, sourcecolor green, sourceinputgain 0., sourcemute 0, sourceoutputgain 0., sourceproportion 0.07, sourceseditable 1, sourcesolo 0, sourcespositions 0. 1. 0., speakerseditable 0, speakerseq 0, speakerspositions -0.5 0.866025 0. 0.5 0.866025 0., speakersproportion 0.1, speakerstimealignment 0, vieweronly 0, viewpoint top, warmth 30., windowsize 400, windowtitle Oper, yaw 0., zoom 1.,,"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-6",
+									"linecount" : 20,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 132.0, 593.0, 250.0 ],
+									"text" : "append aperture 80., aperturecolor 1. 1. 1. 0.6, areasmonitoring 0, automaticspeakerstimealignment 0, axis 0. 0. 0. 0. 177. 5657., backgroundimage none, backgroundimageangle 0., backgroundimageopacity 1., backgroundimagequality medium, backgroundimagescale 1., backgroundimagexoffset 0., backgroundimageyoffset 0., bril 30., bypass 0, circularconstraint 0, cluster_distr 0.4, cluster_end 15.05, cluster_start 8.11, delays 0. 0., doppler 0, drop 6., dropmode log2, early_distr 0.4, early_end 8.76, early_shape 0.5, early_start 7.11, early_width 30., env 24., format ade, globalproportion 0.1, gridlines 3, gridmode circular, gridspacing 1., heaviness 25., infinite 0, listenereditable 0, listenerpitch 0., listenerposition 0. 0. 0., listenerproportion 0.15, listenerroll 0., listeneryaw 0., liveness 23., modaldensity 0.2, multipleoutlets 0, mute 0, name \"1\", numangulardivisions 8, numareas 0, numcascades 1, numinternals 8, numreverbs 1, numsources 1, numspeakers 2, omni 0. 1.7 0. -3.8 177. 5657., orientationmode yawconstraint, outputfiltersQ 1. 1., outputfiltersfreq 1000. 1000., outputfiltersgain 0. 0., outputfilterstype Null Null, pan_rev 0., parameter_enable 0, pitch 0., prer 48., pres 90., radius 1., reverb_start 13.55, reverberance 5., reverbfreqhigh 8000., reverbfreqlow 250., reverbid 1, revp 34., roomactive 1, roomairabsorption 1, roomairrolloff 10000., roominputgain 0., roomoutputgain 0., shoeboxcorners 0. 0. 0. 1. -1. 0., showangulardivisions 1, showaperture 1, showareas 0, showbackgroundimage 1, showcriteria 0, showgains 0, showheadphones 0, showimagesources 0, showlegend 1, showlistener 1, showradius 0, showshoebox 0, showsources 1, showsourceslabel 1, showspeakers 1, showspeakershull 0, showspeakerslabel 1, showspeakersprojection 0, showspeakersradius 0, showspeakerstriangulation 0, showviewer 1, sourceairabsorption 1, sourcecolor green, sourceinputgain 0., sourcemute 0, sourceoutputgain 0., sourceproportion 0.07, sourceseditable 1, sourcesolo 0, sourcespositions 0. 1. 0., speakerseditable 0, speakerseq 0, speakerspositions -0.5 0.866025 0. 0.5 0.866025 0., speakersproportion 0.1, speakerstimealignment 0, vieweronly 0, viewpoint top, warmth 30., windowsize 400, windowtitle Oper, yaw 0., zoom 1.,,"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
 									"id" : "obj-35",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -319,7 +349,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 134.5, 664.0, 232.0 ],
+									"patching_rect" : [ 602.5, 104.5, 669.0, 232.0 ],
 									"text" : "source 1 pres 30.566, source 1 pres 29.434, source 1 warmth 43., source 1 bril 41., source 1 prer 89., source 1 revp 29., source 1 env 28., source 1 env 27., source 1 env 26., source 1 env 25., room 1 reverberance 72., room 1 reverberance 71., room 1 heaviness 20., room 1 liveness 33., room 1 liveness 32., room 1 early start 25.56, room 1 early end 46.92, room 1 early distr 0.45, room 1 cluster start 42.23, room 1 cluster end 114.73, room 1 cluster distr 0.48, room 1 reverb start 103.26, room 1 reverb modaldensity 0.73, room 1 early start 25.29, room 1 early end 45.11, room 1 early distr 0.45, room 1 cluster start 40.6, room 1 cluster end 107.99, room 1 cluster distr 0.48, room 1 reverb start 97.19, room 1 reverb modaldensity 0.68, room 1 early start 24.58, room 1 early end 39.17, room 1 early distr 0.46, room 1 early shape 0.52, room 1 cluster start 43.31, room 1 cluster end 113.83, room 1 cluster distr 0.5, room 1 reverb start 90.44, room 1 reverb modaldensity 0.67, room 1 active 0, room 1 active 1, room 1 infinite 1, room 1 infinite 0, room 1 air 0, room 1 air 1, room 1 airfreq 9811., room 1 reverb fl 342., room 1 reverb fh 8141., room 1 reverb fh 8406., source 1 pres 90., source 1 warmth 30., source 1 bril 30., source 1 prer 48., source 1 revp 34., source 1 env 24., source 1 aperture 80., source 1 early width 30., source 1 drop 6., source 1 dropmode log2, source 1 radius 1., room 1 reverberance 65., room 1 heaviness 25., room 1 liveness 35., room 1 early end 39.71, room 1 cluster start 42.47, room 1 cluster end 105.64, room 1 reverb start 95.37, room 1 early distr 0.5, room 1 early shape 0.5, room 1 cluster distr 0.5, room 1 reverb modaldensity 0.86, room 1 airfreq 10000., room 1 reverb fl 250., room 1 reverb fh 8000., room 1 early start 22.22, channel 1 cascade 1 freq 1000., channel 1 cascade 1 Q 1., channel 1 cascade 1 gain 0., channel 1 cascade 1 type Null, channel 2 cascade 1 freq 1000., channel 2 cascade 1 Q 1., channel 2 cascade 1 gain 0., channel 2 cascade 1 type Null,"
 								}
 
@@ -740,6 +770,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -867,7 +906,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-33", 0 ],
+									"destination" : [ "obj-6", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-80", 0 ]
@@ -929,7 +968,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 834.333313, 483.5, 51.0, 18.0 ],
+					"patching_rect" : [ 833.333313, 486.0, 51.0, 18.0 ],
 					"text" : "target 0"
 				}
 
@@ -2420,6 +2459,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-100", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2790,19 +2847,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
+					"destination" : [ "obj-100", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-43", 1 ]
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 4 ],
+					"destination" : [ "obj-59", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-43", 0 ]
+					"source" : [ "obj-43", 1 ]
 				}
 
 			}
@@ -3046,15 +3103,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-66", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-68", 0 ]
 				}
 
 			}
@@ -3351,15 +3399,15 @@
 			}
 , 			{
 				"name" : "loops.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
+				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut0",
+				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut0",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "trigmodes.txt",
-				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
-				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/dragonfly2",
+				"bootpath" : "/Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut0",
+				"patcherrelativepath" : "../../../../../../Applications/Max608/patchesMax6/6_patches_persos/ProjetpersoRIM/saves/debut0",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
